@@ -1,0 +1,139 @@
+@font-face{
+    font-family: 'Andes';
+    src: url(fonts/Andes.ttf) format('truetype');
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    grid-gap: 20px; /* Espacio entre las cajas de texto */
+    background: #F3F5FC;
+    background-image: url('img/maxresdefault2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+.Título {
+    color: #242424(0, 7%, 97%);
+    size: 100%;
+    grid-column: 1 / -1; /* Ocupa todas las columnas disponibles */
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.input-container {
+    display: flex;
+    margin: auto;
+    height: 300px;
+    flex-direction: column;
+    padding: 10px;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+.input-container2 {
+    display: flex;
+    margin: auto;
+    height: 300px;
+    flex-direction: column;
+    padding: 10px;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    border: none;
+}
+
+
+.text-input {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    background-color: rgba(11, 11, 11, 0.8); /* Fondo negro con 80% de opacidad */
+    border: none;
+    color: white;
+}
+
+.text-input2 {
+    display: flex;
+    color: #f3f3f3;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    font-style: normal;
+    margin-bottom: 10px;
+    border: none;
+    background-image: url('img/Batman.png');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Centra la imagen en el contenedor */
+}
+
+.text-input::placeholder {
+    color: rgb(246, 239, 239);
+    border: black;
+}
+
+.input-container2 textarea::placeholder {
+    font-weight: bold;
+    font-size: 19px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 5px #888; /* Agrega una sombra al botón */
+}
+
+.botonDesencriptar {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 5px #888; /* Agrega una sombra al botón */
+}
+
+button:hover, .botonDesencriptar:hover {
+    background-color: #f3f3f3; /* Cambia el color de fondo al pasar el mouse sobre cualquier botón */
+    color: #000; /* Cambia el color del texto al pasar el mouse sobre cualquier botón */
+    box-shadow: none; /* Elimina la sombra al pasar el mouse sobre cualquier botón */
+    transform: scale(1.1); /* Escala el botón al 110% de su tamaño original */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: none;
+    padding: 10px;
+    font-size: 17px;
+    color: hsl(0, 22%, 96%);
+    grid-column: 1 / -1; /* Ocupa todas las columnas disponibles */
+    }
+
+.logoLinkedin {
+    max-width: 40px; /* Establece el ancho máximo de la imagen al ancho del contenedor */
+    height: 40px; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin-right: 10px; /* Añade un espacio entre la imagen y el texto */
+    }
